@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b6bcb6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    color: #333;
+}
+
+.contenedor-secciones {
+    display: flex;
+    flex-direction: column; /* Coloca los botones en columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    height: 100vh; /* La altura ocupará toda la pantalla */
+}
+.contenedor-secciones button {
+    margin: 10px; /* Espacio entre los botones */
+    padding: 10px 20px; /* Tamaño de los botones */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer;
+  }
+
+div {
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #045016;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+h2, h3 {
+    color: #555;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #045016;
+    padding-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+}
+
+/* Estilo de los botones */
+button {
+    padding: 0.75rem 1rem;
+    background-color: #045016;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-top: 0.75rem;
+}
+
+button:hover {
+    background-color: #045016;
+}
+
+/* Estilo de los input de texto */
+input[type="text"], input[type="email"] {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    width: 100%;
+}
+
+/* Estilo de la lista (ul) */
+ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Estilo del botón de eliminar */
+.delete-button {
+    background-color: #dc3545;
+    margin-top: 1rem;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+/* Estilo para el área donde se muestra el correo almacenado */
+.email-output {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    color: #333;
+}

@@ -1,32 +1,75 @@
-# Proyecto TP JavaScript
+# TP JavaScript – Fundamentos y Manipulación del DOM (Proyecto Académico)
+
+Proyecto académico desarrollado para la materia Desarrollo de Software  
+(Ingeniería en Sistemas – UTN Facultad Regional Mendoza).
+
+Este repositorio se publica con fines de portfolio personal como muestra de un proyecto inicial orientado a la práctica de **fundamentos de JavaScript**.
+
+---
 
 ## Descripción
 
-Este proyecto demuestra conceptos básicos de JavaScript utilizando Vite, como manipulación del DOM, eventos y almacenamiento local.
+El proyecto demuestra conceptos básicos del lenguaje JavaScript aplicados al desarrollo web, utilizando **Vite** como entorno de desarrollo.
 
-## Estructura del Proyecto
+El objetivo principal fue comprender y aplicar:
+- manipulación del DOM,
+- manejo de eventos,
+- uso de almacenamiento local del navegador,
+- estructura básica de una aplicación web frontend.
 
-El proyecto está compuesto por tres archivos principales:
+---
 
-1. `index.html` - Contiene la estructura HTML y los enlaces a los estilos y scripts.
-2. `style.css` - Define los estilos CSS para la página.
-3. `main.js` - Contiene la lógica JavaScript para interactuar con el DOM, manejar eventos y utilizar el almacenamiento local.
+## Estructura del proyecto
 
-## Funcionalidades
+El sistema se compone de los siguientes archivos principales:
 
-1. **Ejemplos de código**: Demuestra conceptos como operadores, bucles, funciones, objetos y arreglos.
-2. **Manipulación del DOM**: Cambia estilos, muestra alertas y agrega/elimina elementos.
-3. **Eventos**: Responde a interacciones del usuario, como clics en botones.
-4. **Almacenamiento local**: Guarda y recupera datos del navegador.
+- `index.html`  
+  Contiene la estructura HTML de la aplicación.
 
-## Tecnologías Utilizadas
+- `style.css`  
+  Define los estilos visuales de la página.
+
+- `main.js`  
+  Implementa la lógica JavaScript para interacción con el DOM, eventos y almacenamiento local.
+
+---
+
+## Funcionalidades implementadas
+
+- Ejemplos de conceptos básicos de JavaScript:
+  - variables,
+  - operadores,
+  - bucles,
+  - funciones,
+  - objetos y arreglos.
+- Manipulación del DOM:
+  - modificación de estilos,
+  - creación y eliminación de elementos,
+  - mensajes al usuario.
+- Manejo de eventos:
+  - interacción mediante clicks y acciones del usuario.
+- Uso de almacenamiento local:
+  - guardado y recuperación de datos en el navegador.
+
+---
+
+## Tecnologías utilizadas
 
 - HTML
 - CSS
-- JavaScript Vanilla
+- JavaScript (Vanilla)
 - Vite
+
+---
+
+## Estado del proyecto
+
+Proyecto académico finalizado.  
+Orientado a la práctica de fundamentos de JavaScript y desarrollo frontend básico.
+
+---
 
 ## Autor
 
--  Gonzalo Van Megroot 3K10- Desarrollo de Software
--  Universidad Técnologica Nacional, Mendoza
+Gonzalo Van Megroot  
+Ingeniería en Sistemas – UTN Facultad Regional Mendoza
